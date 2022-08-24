@@ -1,0 +1,94 @@
+body{
+    background-color: #444444;
+}
+nav {
+    float: right;
+    width: 80vw ;    
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color:#7e7e7e;
+    text-align: center;
+    padding-left: 10vw;
+}
+
+nav a:hover {
+    color: #a7a2a2;
+}
+.toppage {
+    display:flex;
+    flex-direction: row;
+}
+.toppage img {
+    margin-left: 10vw;
+    padding-bottom: 10px;
+}
+.largeform {
+    padding-top: 30px;
+    margin-left: 10vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.color {
+    background-color: white;
+}
+.img-slot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+.img-slot img {
+    margin-right: 5vw;
+    padding-top: 30px;
+}
+.img-slot > :first-child {
+    margin-left: 10vw;
+}
+.tricky {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tricky img {
+    margin-left: 10vw;
+}
+#scrollbox {
+    padding: 10px;
+    margin-left: 5vw;
+    max-height: 480px;
+    max-width: 400px ;
+    overflow: auto;
+    margin-left: ;
+}
+
+#button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: absolute;
+    margin-left: 55vw;
+
+}
+#spacer {
+    height: 10vh;
+    background-color: #444444;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
